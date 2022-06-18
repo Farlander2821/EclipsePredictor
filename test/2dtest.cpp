@@ -2,11 +2,11 @@
 #include <math.h>
 
 //All units are in base SI (meter, kilogram, etc) unless otherwise specified
-const double EARTH_RADIUS = 6.3781e6;
-const double MOON_RADIUS = 1737400;
-const double SUN_RADIUS = 6.957e8;
-const double MOON_DISTANCE = 3.844e8;
-const long double SUN_DISTANCE = 1.496e11;
+const double EARTH_RADIUS = 6.3781e6; //km
+const double MOON_RADIUS = 1737400; //km
+const double SUN_RADIUS = 6.957e8; //km
+const double MOON_DISTANCE = 3.844e8; //km
+const long double SUN_DISTANCE = 1.496e11; //km
 
 float umbra_rad();
 
