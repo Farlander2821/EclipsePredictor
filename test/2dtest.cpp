@@ -17,11 +17,8 @@ int main() {
 
 float umbra_rad() {
 	float slope = (float(SUN_RADIUS) - float(MOON_RADIUS)) / (float(SUN_DISTANCE) - float(MOON_DISTANCE));
-	std::cout << "Slope: " << slope << std::endl;
 	float umbra_height = (slope * EARTH_RADIUS) / sqrt(slope + 1);
-	std::cout << "Height: " << umbra_height << std::endl;
 	float umbra_angle = atan(umbra_height / EARTH_RADIUS);
-	std::cout << "Angle: " << umbra_angle << std::endl;
 	float umbra_rad = EARTH_RADIUS * umbra_angle;
 	return umbra_rad;
 }

@@ -1,5 +1,0 @@
-﻿  2dtest.cpp
-F:\EclipsePredictor\test\2dtest.cpp(21,21): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
-F:\EclipsePredictor\test\2dtest.cpp(23,20): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
-F:\EclipsePredictor\test\2dtest.cpp(25,18): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
-  EclipsePredictor.vcxproj -> F:\EclipsePredictor\EclipsePredictor\Debug\EclipsePredictor.exe
